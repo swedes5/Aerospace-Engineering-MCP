@@ -1,0 +1,8 @@
+# Cloudflare Worker config. No account ID here on purpose:
+# Wrangler picks your account when you log in.
+name = "aeromech-tools"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Optional: to make the endpoint a private link, do NOT put the secret here.
+# Set it as a secret instead:  npx wrangler secret put MCP_PATH_SECRET
